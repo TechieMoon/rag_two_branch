@@ -8,6 +8,7 @@
 | # | 프로젝트 | 내용 | 사용한 책 내용 |
 |---|---|---|---|
 | 01 | [Reranker 기반 사내 문서 QA](01_company_guide_rag_reranker/) | FAISS로 후보 7개를 검색하고 Cross Encoder Reranker(`BAAI/bge-reranker-v2-m3`)로 3개를 골라 답변 생성. 10개 질문을 PDF 원문과 대조해 10/10 정답 확인 | 심화편 CH01 교차 인코더 리랭커 + 기본편 CH09~13 |
+| 02 | [생성형 AI 윤리 가이드북 QA](02_ai_ethics_guidebook_rag_reranker/) | 01 프로젝트 파이프라인을 30쪽 법·윤리 가이드북 PDF에 적용. 질문은 JSON 파일에서 불러오고, 문서 길이에 맞춰 k=8 / top_n=4로 조정. 참고 답안·근거 페이지 기준 3/3 정답 | 심화편 CH01 교차 인코더 리랭커 + 기본편 CH09~13 |
 
 ## 실행 환경 (uv)
 
